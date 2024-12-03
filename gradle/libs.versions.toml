@@ -1,0 +1,10 @@
+[libraries]
+asm = "org.ow2.asm:asm-commons:9.7.1"
+#noinspection AndroidGradlePluginVersion
+agp = "com.android.tools.build:gradle:8.0.0"
+
+[plugins]
+kgp = { id = "org.jetbrains.kotlin.jvm", version = "2.0.21" }
+librarian = { id = "com.gradleup.librarian", version = "0.0.7" }
+gratatouille = { id = "com.gradleup.gratatouille", version = "0.0.4" }
+ksp = { id = "com.google.devtools.ksp", version = "2.0.21-1.0.28" }
