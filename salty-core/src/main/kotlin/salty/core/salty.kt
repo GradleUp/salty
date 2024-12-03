@@ -70,7 +70,7 @@ private class MyMethodVisitor(private val context: Context, private val location
   override fun visitMethodInsn(opcode: Int, owner: String?, name: String?, descriptor: String?, isInterface: Boolean) {
     val method = owner?.replace('/', '.')?.plus('.')?.plus(name)
     if (context.forbiddenMethods.contains("$method")) {
-     // context.issues.add("$location uses $method")
+      context.issues.add("$location uses $method")
     }
   }
 }
