@@ -3,16 +3,16 @@
   <groupId>com.gradleup.salty</groupId>
   <artifactId>com.gradleup.salty.gradle.plugin</artifactId>
   <versioning>
-    <lastUpdated>20241203225344</lastUpdated>
+    <lastUpdated>20241203225401</lastUpdated>
     <snapshot>
-      <timestamp>20241203.225344</timestamp>
+      <timestamp>20241203.225401</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>0.0.0-20241203.225344-1</value>
-        <updated>20241203225344</updated>
+        <value>0.0.0-20241203.225401-1</value>
+        <updated>20241203225401</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
