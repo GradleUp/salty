@@ -4,8 +4,8 @@ When you can't desugar, add salt!
 
 A Gradle plugin that inspects your bytecode to detect bad functions that are not safe to use on older Android versions.
 
-See https://youtrack.jetbrains.com/issue/KT-71375
-See https://jakewharton.com/kotlins-jdk-release-compatibility-flag/
+- See https://youtrack.jetbrains.com/issue/KT-71375
+- See https://jakewharton.com/kotlins-jdk-release-compatibility-flag/
 
 ## Usage
 
