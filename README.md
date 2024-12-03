@@ -25,6 +25,6 @@ salty {
 }
 ```
 
-Salty adds a `saltyCheck${variantName}` task that visits your app bytecode using [ASM](https://asm.ow2.io/) and fails if an usage of any forbidden method is found. 
+Salty adds a `saltyCheck${variantName}` task that visits your app and dependencies bytecode using [ASM](https://asm.ow2.io/) and fails if an usage of any forbidden method is found. 
 
 `saltyCheck${variantName}` is added to the `check` task so that it is run automatically.
