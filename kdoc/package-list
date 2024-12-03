@@ -1,0 +1,7 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+
+module:salty-core
+salty.core
+module:salty-gradle-plugin
+salty.gradle

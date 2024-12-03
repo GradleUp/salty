@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gradleup.salty",
+    "module": "salty-gradle-plugin",
+    "version": "0.0.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-gradle-plugin-0.0.0-SNAPSHOT.jar",
+          "url": "salty-gradle-plugin-0.0.0-SNAPSHOT.jar",
+          "size": 23671,
+          "sha512": "d7b47adc28047d23a9a3637c57457e234234de9349da0687d49659fd00a74b14feebdfdfa823f6c6784040852e048409fafc281f3b6e6c574439f26cb28995d7",
+          "sha256": "d8ce6dd1db9c2131e97b5bc06a3c912bd1d9d1c7fba1855f6708da9148076130",
+          "sha1": "0aa2e773f5359e0774ec46d8738829b2c00258ef",
+          "md5": "d78cd578e5e7ba30e693bedf4f20d16c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-gradle-plugin-0.0.0-SNAPSHOT.jar",
+          "url": "salty-gradle-plugin-0.0.0-SNAPSHOT.jar",
+          "size": 23671,
+          "sha512": "d7b47adc28047d23a9a3637c57457e234234de9349da0687d49659fd00a74b14feebdfdfa823f6c6784040852e048409fafc281f3b6e6c574439f26cb28995d7",
+          "sha256": "d8ce6dd1db9c2131e97b5bc06a3c912bd1d9d1c7fba1855f6708da9148076130",
+          "sha1": "0aa2e773f5359e0774ec46d8738829b2c00258ef",
+          "md5": "d78cd578e5e7ba30e693bedf4f20d16c"
+        }
+      ]
+    }
+  ]
+}
