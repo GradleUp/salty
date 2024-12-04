@@ -31,7 +31,7 @@ Salty adds a `saltyCheck${variantName}` task that visits your app and dependenci
 $ ./gradlew :app:saltyCheckDebug
 
 > Task :app:saltyCheckDebug FAILED
-e: /Users/martinbonnin/git/salty/android-test/app/build/tmp/kotlin-classes/debug/com/example/android_test/MainActivity.class uses java.util.List.removeFirst
+e: [...]/debug/com/example/android_test/MainActivity.class uses java.util.List.removeFirst
 
 FAILURE: Build failed with an exception.
 ```
