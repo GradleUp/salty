@@ -21,7 +21,7 @@ internal fun scanClassPath(files: GInputFiles, forbiddenMethods: List<String>, o
       "aar", "jar" -> scanJar(it.file, context)
       "class" -> scanFile(it.file, context)
       else -> {
-        println("Ignoring file: ${it.file.name}")
+        //println("Ignoring file: ${it.file.name}")
       }
     }
   }
@@ -43,7 +43,7 @@ private fun scanJar(jar: File, context: Context) {
         if (entry.name.endsWith(".class")) {
           processBytes(zipInputStream.readAllBytes(), context, "${jar.absolutePath}:${entry.name}")
         } else {
-          println("Cannot process ${entry.name}")
+          //println("Cannot process ${entry.name}")
         }
       }
       entry = zipInputStream.nextEntry
@@ -52,7 +52,6 @@ private fun scanJar(jar: File, context: Context) {
 }
 
 fun processBytes(bytes: ByteArray, context: Context, location: String) {
-  println("processing $location")
   ClassReader(bytes).accept(object : ClassVisitor(Opcodes.ASM9) {
     override fun visitMethod(
       access: Int,
