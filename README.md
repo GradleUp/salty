@@ -27,4 +27,13 @@ salty {
 
 Salty adds a `saltyCheck${variantName}` task that visits your app and dependencies bytecode using [ASM](https://asm.ow2.io/) and fails if an usage of any forbidden method is found. 
 
+```
+$ ./gradlew :app:saltyCheckDebug
+
+> Task :app:saltyCheckDebug FAILED
+e: /Users/martinbonnin/git/salty/android-test/app/build/tmp/kotlin-classes/debug/com/example/android_test/MainActivity.class uses java.util.List.removeFirst
+
+FAILURE: Build failed with an exception.
+```
+
 `saltyCheck${variantName}` is added to the `check` task so that it is run automatically.
