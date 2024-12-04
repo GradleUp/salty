@@ -13,7 +13,7 @@ Add the plugin:
 
 ```kotlin
 plugins {
-    id("com.gradleup.salty.android").version("0.0.0")
+    id("com.gradleup.salty.android").version("0.0.1")
 }
 ```
 
