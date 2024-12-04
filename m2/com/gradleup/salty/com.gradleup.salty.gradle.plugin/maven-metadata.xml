@@ -3,11 +3,11 @@
   <groupId>com.gradleup.salty</groupId>
   <artifactId>com.gradleup.salty.gradle.plugin</artifactId>
   <versioning>
-    <latest>0.0.0</latest>
-    <release>0.0.0</release>
+    <latest>0.0.1</latest>
+    <release>0.0.1</release>
     <versions>
-      <version>0.0.0</version>
+      <version>0.0.1</version>
     </versions>
-    <lastUpdated>20241204151018</lastUpdated>
+    <lastUpdated>20241204151523</lastUpdated>
   </versioning>
 </metadata>

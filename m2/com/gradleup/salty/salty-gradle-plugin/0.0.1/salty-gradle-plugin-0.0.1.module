@@ -1,0 +1,82 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gradleup.salty",
+    "module": "salty-gradle-plugin",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-gradle-plugin-0.0.1.jar",
+          "url": "salty-gradle-plugin-0.0.1.jar",
+          "size": 23663,
+          "sha512": "703190d5af7bb82754271f2a5cd1289d7447000302c7ec7bff1ada89240fbb61daf7dd2724865259ed983889f00689ab244164a954d769544491b3aab85d1350",
+          "sha256": "a9c4aef6a679222947c31337e6469d4fefe0f90b424d53ff286510d470ed02aa",
+          "sha1": "7aad094f5b1accb147872320b31b648c63f9d63e",
+          "md5": "fe6d1b0cbc59725c3a87837e1d34a56d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-gradle-plugin-0.0.1.jar",
+          "url": "salty-gradle-plugin-0.0.1.jar",
+          "size": 23663,
+          "sha512": "703190d5af7bb82754271f2a5cd1289d7447000302c7ec7bff1ada89240fbb61daf7dd2724865259ed983889f00689ab244164a954d769544491b3aab85d1350",
+          "sha256": "a9c4aef6a679222947c31337e6469d4fefe0f90b424d53ff286510d470ed02aa",
+          "sha1": "7aad094f5b1accb147872320b31b648c63f9d63e",
+          "md5": "fe6d1b0cbc59725c3a87837e1d34a56d"
+        }
+      ]
+    }
+  ]
+}
