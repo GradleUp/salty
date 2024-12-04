@@ -39,10 +39,10 @@
           "name": "salty-gradle-plugin-0.0.0.jar",
           "url": "salty-gradle-plugin-0.0.0.jar",
           "size": 23662,
-          "sha512": "e5706560bcffadb640247120906b20383db696acf793f20307087e1cc6bedc24b4c1f1a30a1085a99439dd8245fd431399691573a477d2252acd30ad57997705",
-          "sha256": "faee55cfc805c14fb2e74c03ab23c02a4f7dc628f8df4b13a76e840b6cecde04",
-          "sha1": "9b2a8b4f73dd7cfcc1371dbbaaad00e46dae8209",
-          "md5": "705bc4f9ef2ae46b79470eb0aab8d596"
+          "sha512": "7c7829bc6c190db55bdbbc185c39de10ebc5855a07b58c19632044fe14a74225738afcc60b48d25509e8dbfd9218f7cb269f9b1e7177ddf15a11b695a4abf788",
+          "sha256": "de1e4dcf2ba5a77701ce6f21180772f1a044ba0a248e9894420a11112e5a344f",
+          "sha1": "e5415908859d510c409f11ec426970c006734f54",
+          "md5": "a89fe58d0c14fd7bba37d3dcb278dda8"
         }
       ]
     },
@@ -71,10 +71,10 @@
           "name": "salty-gradle-plugin-0.0.0.jar",
           "url": "salty-gradle-plugin-0.0.0.jar",
           "size": 23662,
-          "sha512": "e5706560bcffadb640247120906b20383db696acf793f20307087e1cc6bedc24b4c1f1a30a1085a99439dd8245fd431399691573a477d2252acd30ad57997705",
-          "sha256": "faee55cfc805c14fb2e74c03ab23c02a4f7dc628f8df4b13a76e840b6cecde04",
-          "sha1": "9b2a8b4f73dd7cfcc1371dbbaaad00e46dae8209",
-          "md5": "705bc4f9ef2ae46b79470eb0aab8d596"
+          "sha512": "7c7829bc6c190db55bdbbc185c39de10ebc5855a07b58c19632044fe14a74225738afcc60b48d25509e8dbfd9218f7cb269f9b1e7177ddf15a11b695a4abf788",
+          "sha256": "de1e4dcf2ba5a77701ce6f21180772f1a044ba0a248e9894420a11112e5a344f",
+          "sha1": "e5415908859d510c409f11ec426970c006734f54",
+          "md5": "a89fe58d0c14fd7bba37d3dcb278dda8"
         }
       ]
     }

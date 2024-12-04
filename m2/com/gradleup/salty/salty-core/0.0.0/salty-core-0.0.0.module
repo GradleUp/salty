@@ -39,10 +39,10 @@
           "name": "salty-core-0.0.0.jar",
           "url": "salty-core-0.0.0.jar",
           "size": 11005,
-          "sha512": "0e7f6f047d566ad8e21c63e13c90d5c7769cde9cbb33e9eedc800ba5fe0d5db9b9d6eae4500aa83612bc476ae85656776f175e353d63f661ea64e0b43fe68d05",
-          "sha256": "fb69ceecfc2d39c02221574a136538247c09ca6c0d0e164de6b08edb14a8bb2c",
-          "sha1": "77bfd86bb9bbb5602efd46176f84af3ea2f8c252",
-          "md5": "c85b7ac1dc8a98003603629bb7ee3ac3"
+          "sha512": "a8ae886e522dc3e38f30b15367b5eee15094b0562731826d352b4a6cf2dabc95ce5e5adf696c1cbccb9a02b0884d5869e9ee58ae5b975a6511fdb3ced68e8c78",
+          "sha256": "77e908f9b2824a472e3572be0ccbd9e7dfced6a6c84496f8025309751cd81f5b",
+          "sha1": "0d47a22363f3e389b4d5d746cc1c0a60ff7a97c7",
+          "md5": "bc7df8795fa2323159a928159323feea"
         }
       ]
     },
@@ -85,10 +85,10 @@
           "name": "salty-core-0.0.0.jar",
           "url": "salty-core-0.0.0.jar",
           "size": 11005,
-          "sha512": "0e7f6f047d566ad8e21c63e13c90d5c7769cde9cbb33e9eedc800ba5fe0d5db9b9d6eae4500aa83612bc476ae85656776f175e353d63f661ea64e0b43fe68d05",
-          "sha256": "fb69ceecfc2d39c02221574a136538247c09ca6c0d0e164de6b08edb14a8bb2c",
-          "sha1": "77bfd86bb9bbb5602efd46176f84af3ea2f8c252",
-          "md5": "c85b7ac1dc8a98003603629bb7ee3ac3"
+          "sha512": "a8ae886e522dc3e38f30b15367b5eee15094b0562731826d352b4a6cf2dabc95ce5e5adf696c1cbccb9a02b0884d5869e9ee58ae5b975a6511fdb3ced68e8c78",
+          "sha256": "77e908f9b2824a472e3572be0ccbd9e7dfced6a6c84496f8025309751cd81f5b",
+          "sha1": "0d47a22363f3e389b4d5d746cc1c0a60ff7a97c7",
+          "md5": "bc7df8795fa2323159a928159323feea"
         }
       ]
     }
