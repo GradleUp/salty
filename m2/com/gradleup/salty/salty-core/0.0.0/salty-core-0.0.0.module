@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.gradleup.salty",
+    "module": "salty-core",
+    "version": "0.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-core-0.0.0.jar",
+          "url": "salty-core-0.0.0.jar",
+          "size": 11098,
+          "sha512": "e83885b3aae05a0c653c903a8e949edaa6a5d78e39498b14aa442baa38915ce8af178cbd0e4b30432f4965340e3a1e60238d8b5c0f8d07142a166f69fb01e060",
+          "sha256": "3f0fc9f22cc93a2ec107c77a0c3989af7721162daf36950b4227306ad850758b",
+          "sha1": "72f872816c7078135dbda7f1c87500e0358ec71e",
+          "md5": "2c707542677a2e85b79f20e354ea86ad"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gradleup.gratatouille",
+          "module": "gratatouille-core",
+          "version": {
+            "requires": "0.0.4"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-commons",
+          "version": {
+            "requires": "9.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "salty-core-0.0.0.jar",
+          "url": "salty-core-0.0.0.jar",
+          "size": 11098,
+          "sha512": "e83885b3aae05a0c653c903a8e949edaa6a5d78e39498b14aa442baa38915ce8af178cbd0e4b30432f4965340e3a1e60238d8b5c0f8d07142a166f69fb01e060",
+          "sha256": "3f0fc9f22cc93a2ec107c77a0c3989af7721162daf36950b4227306ad850758b",
+          "sha1": "72f872816c7078135dbda7f1c87500e0358ec71e",
+          "md5": "2c707542677a2e85b79f20e354ea86ad"
+        }
+      ]
+    }
+  ]
+}
